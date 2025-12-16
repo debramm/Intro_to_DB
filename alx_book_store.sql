@@ -15,9 +15,11 @@ CREATE TABLE Authors (
     author_name VARCHAR(215) NOT NULL
 );
 
-CREATE TABLE Authors (
-    author_id INT AUTO_INCREMENT PRIMARY KEY,
-    author_name VARCHAR(215) NOT NULL
+CREATE TABLE Customers (
+    customer_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_name VARCHAR(215) NOT NULL,
+    email VARCHAR(215) NOT NULL,
+    address TEXT
 );
 
 CREATE TABLE Orders (
